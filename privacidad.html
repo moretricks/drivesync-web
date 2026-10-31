@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DriveSync · Política de privacidad</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: #111a2c; color: #e6edf7; font: 16px/1.6 system-ui, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 20px; }
+  h1 { font-size: 30px; margin: 0 0 8px; }
+  h2 { font-size: 19px; margin: 28px 0 6px; }
+  p, li { color: #c4d0e0; }
+  a { color: #7cc0ee; }
+  .muted { color: #9fb0c8; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de privacidad</h1>
+  <p class="muted">DriveSync · Última actualización: 25 de octubre de 2026</p>
+
+  <h2>Qué datos usa</h2>
+  <p>DriveSync accede a la cuenta de Google Drive del usuario, con su autorización, solo para
+  sincronizar los archivos de las carpetas que él mismo elige: listar, subir, bajar,
+  actualizar y borrar esos archivos.</p>
+
+  <h2>Dónde quedan los datos</h2>
+  <ul>
+    <li>Los archivos solo viajan entre el computador del usuario y su propia cuenta de Google Drive.</li>
+    <li>La autorización de Google (el token de acceso) se guarda únicamente en el computador del usuario.</li>
+    <li>DriveSync no tiene servidores propios y no envía datos a terceros.</li>
+    <li>No se recopilan estadísticas, ni datos de uso, ni publicidad.</li>
+  </ul>
+
+  <h2>Uso de los datos de Google</h2>
+  <p>El uso de la información recibida de las API de Google cumple la
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los servicios de la API de Google</a>,
+  incluidos los requisitos de uso limitado.</p>
+
+  <h2>Cómo revocar el acceso</h2>
+  <p>El usuario puede quitar el acceso de DriveSync en cualquier momento desde
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+  La autorización guardada en el computador se borra con el comando <code>rclone config delete drive</code>.</p>
+
+  <h2>Contacto</h2>
+  <p>Escribe al correo de asistencia que aparece en la pantalla de autorización de Google de DriveSync.</p>
+</main>
+</body>
+</html>
